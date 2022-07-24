@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xpsession</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
+  <script src="jquery.tiltedpage-scroll.js"></script>
+  <link rel="stylesheet" href="tiltedpage-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d5087b27fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+    
+</head>
+
+ 
+  
+  <div class="loader-container">
+    <div class="loader">
+
+    </div>
+  </div>
+
+    <nav  class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <i class="fas fa-bars" id="icon_fa" style="color:#000; font-size:28px;"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active couleur_texte_nav" href="#accueil">Accueil <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link couleur_texte_nav" href="#projets">Mes projets</a>
+            <a class="nav-item nav-link couleur_texte_nav"  href="#Alternance">Alternance</a>
+            <a class="nav-item nav-link couleur_texte_nav"  href="#bilan"> Mon Bilan</a>
+            <a class="nav-item nav-link couleur_texte_nav" href="#contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+  
+        
+
+      <body>
+             <section class="acueil" id="accueil">
+               <div class="section_accueil">
+              <div class="boite">
+              <div class="boite1">
+                <div data-aos="zoom-in">
+                   <h1>Mwan-Loulou Ibrahim-Mahazi</h1>
+                  </div>
+                   <p>Je suis rédactrice web SEO <br>en alternance chez dootri consulting</p>
+                   <p>Dootriconsulting, est une agence de consulting qui est  spécialisé dans la transformation numérique,</br> SEO, SEA et  la creation de site internet pour l'accompagnement des petites et grande entreprise.</p>
+                   <div class="button">
+                   <a href="#projets" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Voir mes projets</a>
+                   <a href="#contact" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Contactez-moi <i class='fas fa-arrow-right'></i></a>
+                   <button class="light-mode-button" aria-label="Toggle Light Mode" onclick="toggle_light_mode()"> 
+
+                    <span></span>
+                    <span></span>
+                </button>
+                              </div>
+                </div>
+                    <div class="boite1" id="boite_lotti">
+                      <lottie-player class="lotti_accueil" src="https://assets1.lottiefiles.com/packages/lf20_4o6wnb3t.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player>
+
+
+                    </div>
+              </div>
+
+            </div>
+
+              <hr>
+               <div class="container_bonjour">
+                <div class="row">
+                  <div class="col-sm">
+
+                    <div data-aos="fade-right">
+                    <h2>Bonjour et bienvenu ! </h2>
+                  </div>
+                  </div>
+                  <div class="col-sm">
+                   <div data-aos="fade-left">
+                    <p>Rédactrice web SEO dans une agence de consulting à Lyon.<br> J'ai appris à optimiser et à positionner les sites internet de nos clients <br> avec le référencement naturel</p>
+                  </div>
+                    <a href="#Alternance" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">En savoir plus <i class='fas fa-arrow-right'></i></a>                 
+
+                </div>
+              </div>
+
+            </div>
+            <hr>
+
+            </section> 
+          
+            <!-- SECTION PROJET -->
+
+            <section class="projet" id="projets">
+              <div class="box_projet">
+                <div data-aos="zoom-in">
+                <h2> Mes projets</h2>
+              </div>
+              </div>
+                    <div class="swiper-container"> 
+                      <div class="swiper-wrapper">
+                        <a href="https://dribbble.com/loulou_mll/">
+                        <div class="swiper-slide" style="background-image:url(images/p43.png)">
+                          <img src="images/p43.png" class="entity-img" />
+                        </a>
+                          <div class="content">
+                            <!-- <p class="title" id="caption_modif_blanc" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Le P43</p>
+                            <span class="caption" id=caption_modif data-swiper-parallax="-20%">Réalisation d'un site web </br> pour un restaurant</br>durant un stage de 2 mois<strong></br>Projet pro</strong></span> -->
+                          </div>
+                        </div>
+                        
+                        <div class="swiper-slide"  style="background-image:url(images/article.png)">
+                         
+                          <img src="/images/article.png" class="entity-img" />
+                          
+                          <div class="content">
+                            <!-- <p class="title" id=caption_modif data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Rédaction d'article</p>
+                            <span class="caption" id=caption_modif data-swiper-parallax="-20%">Dans mon entreprise, j'ai réalisé plusieurs article </br> en respectant les bon mots clés <strong></br>Projet pro</strong></span> -->
+                          </div>
+                        </div>
+                        
+
+                        <div class="swiper-slide"  style="background-image:url(images/Mockup_figma.png)">
+                         
+                          <img src="/images/Mockup_figma.png" class="entity-img" />
+                          
+                          <div class="content">
+                            <!-- <p class="title" id=caption_modif data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Rédaction d'article</p>
+                            <span class="caption" id=caption_modif data-swiper-parallax="-20%">Dans mon entreprise, j'ai réalisé plusieurs article </br> en respectant les bon mots clés <strong></br>Projet pro</strong></span> -->
+                          </div>
+                        </div>
+                        
+                        
+                        <div class="swiper-slide" style="background-image:url(images/Catalogue.png)">
+                          <img src="images/Catalogue.png" class="entity-img" />
+                          <div class="content">
+                            <!-- <p class="title" id=caption_modif  data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Catalogue medical</p>
+                            <span class="caption" id=caption_modif data-swiper-parallax="-20%">J'ai réalisé un catalogue medical </br>sur Indesign pour un client dans mon entreprise</br><strong> Projet pro</strong> -->
+                          </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(images/Armoire1.png)">
+                          <img src="images/Armoire1.png" class="entity-img" />
+                          <div class="content">
+                            <!-- <p class="title" id="caption_modif_blanc" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Table de nuit</p>
+                            <span class="caption"  id="caption_modif_blanc"  data-swiper-parallax="-20%">Réalisation d'une table de nuit sur blender<strong></br>Projet personnelle</strong></span> -->
+                          </div>
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(images/cadre_fleur.jpg)">
+                          <img src="images/cadre_fleur.jpg" class="entity-img" />
+                          <div class="content">
+                            <!-- <p class="title"  id="caption_modif_blanc" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Ma fleur</p>
+                            <span class="caption"  id="caption_modif_blanc" data-swiper-parallax="-20%">Réalisation d'une fleur sur Illustrator</br>r<strong>Projet personnelle</strong></span> -->
+                          </div>
+                        </div>
+                      </div>
+
+                      
+                      
+                      <div class="swiper-pagination"></div>
+                      <div class="swiper-button-prev swiper-button-white"></div>
+                      <div class="swiper-button-next swiper-button-white"></div>
+                   </div>
+                  </div>
+
+            </section> 
+             
+             
+             <section class="part_alternance" id="Alternance">
+           
+              <div data-aos="fade-right">
+              <h2>DURANT MON ALTERNANCE</h2>
+            </div>
+              <hr>
+              <p class="p_droite">Pour améliorer le référencement naturel ou SEO,</br>
+                j'ai optimisé et vérifié les balises de titre (h1, h2...), </br>
+                les metadescriptions et les images de différents sites internet.</p>
+    
+              <div class="container_seo">
+                        
+                       <a href="https://charlynemariage.fr/"  target="_blank"><div class="img_seo" ><img src="/images/img_seo_charlyn.png"   alt=""></div></a> 
+                       <div class="side">
+                        <div class="div1" ><img src="/images/Image1.png"  class="img_seo" alt=""></div>
+                        <div class="div1"> <img src="/images/Image2.png" class="img_seo"  alt=""></div>
+                       </div>
+              </div> 
+            </div>
+                    
+                      
+          
+            <p>Dans ce projet, un site vitrine pour robe de mariée, j'ai dû faire un audit complet du site. En effet, le site
+              n'était pas du tout référencé.</br>Ainsi, j'ai dû rédiger tout les metas descriptions de chaque article, renommer les images et vérifier les balises de titre
+             pour le rendre visible sur google grâce aux mots-clés pertinents que j'ai pu trouver sur Semrush. <br> 
+             Après quelques semaines, on a pu voir les résultats.</p>
+                
+            </section>  
+              <section class="competences">
+                <div class="row">
+                  <div class="box">
+                    <h3>Mes missions</h3>
+                    <ul>
+                      <li><span class="icon"><i class='fas fa-edit' style="font-size:24px"></i></span>Rédaction d'articles </li>
+                      <li><span class="icon"><i class="fa fa-line-chart" style="font-size:24px" ></i></span> Analyse concurrentielle</li>
+                      <li><span class="icon"><i class="fa fa-search-plus " style="font-size:24px"></i></span>Recherche de bons mots-clés</li>
+                      <li><span class="icon"><i class='fas fa-edit' style="font-size:24px" ></i></span>Rédaction de fiche produit sur Shopify</li>
+                      <li><span class="icon"><i class='far fa-images' style="font-size:24px" ></i></span>Retouche photo sur Photoshop </li>
+                      <li><span class="icon"><i class='fas fa-pencil-ruler' style="font-size:24px" ></i></i></span>Modification de site wordpress et shopify </li>
+                      <li><span class="icon"><i class='fas fa-book-open' style="font-size:24px" ></i></i></span>Réalisation d'un catalogue pour équipement medicale</li>
+                        </ul>
+                  </div>
+
+                  <div class="box" >
+                    <ul>
+                      <h3 class>Mes competences</h3>
+                      <ul class="mesComp">
+                      <li><span class="icon"><i class="fa fa-wordpress" style="font-size:24px" ></i></span> Wordpress</li>
+                      <li><span class="icon"><i class="fas fa-bullhorn" style="font-size:24px" ></i></span>SEO</li>
+                      <li><span class="icon"><i class="fab fa-shopify" style="font-size:24px"></i></span></i></span>Shopify</li>
+                      <li><span class="icon"></span>Photoshop</li>
+                      <li><span class="icon"></span></i></span>Indesign</li>
+                    </ul>
+                  </div>
+                </div>
+
+            </section> 
+
+
+             <section class="bilan" id="bilan">
+              <hr>
+              <div data-aos="fade-right">
+               <h2>Bilan & perspective</h2>
+              </div>
+               <hr>
+               <p>En tant que rédactrice web SEO, j'ai beaucoup
+                appris surtout en matière de réferencement naturel.</br>Le SEO est quelque chose
+                que j'aime faire. Cependant, je suis plus intéressée par le Webdesign.
+               </br> Plus tard, j'aimerais poursuivre un mastère en UX & UI</p>
+            </section>  
+ 
+
+            <!-- SECTION CONTACT  -->
+            
+            <section class="contact" id="contact">
+              <div data-aos="fade-right">
+              <h2 class="contact_parag">Contactez-moi</h2>
+              </div>
+              <div class="container py-5">
+                 <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                       <div class="card">
+                           <div class="card-body">
+                             <div class="row">
+                              <div class="col-lg-12">
+                                <div class="head text-center text-white py-3">
+                                <h3>Contact</h3>
+                            </div>
+                             </div>
+                           </div>
+
+                           <div class="form p-3">
+                              <div class="form-row my-5">
+                                 <div class="col-lg-6">
+                                     <input type="text" class="effect-1" placeholder="Prénom">
+                                     <span class="Focus-border"></span>
+                                 </div>
+
+      
+                                     <div class="col-lg-6">
+                                         <input type="text" class="effect-1" placeholder="Nom">
+                                         <span class="Focus-border"></span>
+                                     </div>
+                              </div>
+
+                            <div class="form-row pb-4"> 
+                                  <div class="col-lg-12">
+                                         <input type="text" class="effect-1" placeholder="Adresse email">
+                                         <span class="Focus-border"></span>
+                                  </div>
+                            </div>
+                            <div class="form-row pt-5"> 
+                              <div class="col-lg-12">
+                                     <input type="text" class="effect-1" placeholder="Votre message">
+                                     <span class="Focus-border"></span>
+                              </div>
+                        </div>
+
+                        <div class="form-row pt-4"> 
+                          <div class="col-lg-6">
+                                 <p> <input type="checkbox"> Je ne suis pas un robot</p>
+                          </div>
+                          <div class="offset-2 col-lg-4">
+                            <button class="btn1">Envoyer un message</button>
+                          </div>
+                          </div>
+                           </div>
+                       </div>
+                    </div>
+                 </div>
+            <div>
+      </section>
+
+      
+      <footer>
+        <div class="footer-content">
+          
+          <h3>Xpsession</h3>
+          <p class="f_parag">Vous pouvez me contacter à l'adresse mail : mwan-Loulou.ibrahimmahazi@outlook.com ou  bien par téléphone au 06 51 36 49 98</p>
+        
+          <ul class="socials">
+            <li><a href="https://www.linkedin.com/in/mwan-loulou-ibrahim-mahazi-64b30a198/"><i class="fa-brands fa-linkedin-in" ></i></a></li>
+          <li><a href="https://mwanloulou.myportfolio.com/"><i class="fab fa-github"></i></a></li>
+          </ul>  
+
+          <div class="footer-menu">
+              <ul class="f-menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#projets">Mes projets</a></li>
+                <li><a href="#Alternance">Alternance</a></li>
+                <li><a href="#bilan">Mon Bilan</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>Copyright &copy; 2022 Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+
+    </div>
+
+
+      
+             
+            
+           
+
+         <!-- LOADER -->
+
+         <script>
+             function showContent() {  
+
+              document.querySelector('.loader-container').classList.add('hidden');
+
+             }
+
+             setTimeout(showContent, 3000);
+         </script>
+
+         
+      
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script><script>
+               
+           var sliderSelector = '.swiper-container',
+               options = {
+                 init: false,
+                 loop: true,
+                 speed:800,
+                 slidesPerView: 2,
+                 
+                 centeredSlides : true,
+                 effect: 'coverflow', 
+                 coverflowEffect: {
+                   rotate: 50, 
+                   stretch: 0,
+                   depth: 100, 
+                   modifier: 1, 
+                   slideShadows : true, 
+                 },
+                 grabCursor: true,
+                 parallax: true,
+                 pagination: {
+                   el: '.swiper-pagination',
+                   clickable: true,
+                 },
+                 navigation: {
+                   nextEl: '.swiper-button-next',
+                   prevEl: '.swiper-button-prev',
+                 },
+                 breakpoints: {
+                   1023: {
+                     slidesPerView: 1,
+                     spaceBetween: 0
+                   }
+                 },
+                // Evenement
+                 on: {
+                   imagesReady: function(){
+                     this.el.classList.remove('loading');
+                   }
+                 }
+               };
+           var mySwiper = new Swiper(sliderSelector, options);
+           
+          
+           mySwiper.init();
+               
+               
+               </script>
+
+         
+
+
+
+
+<!-- librarie animation aos -->
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- librarie animation aos -->
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+  window.addEventListener('scroll', function() {
+      if (window.scrollY > 50) {
+        document.getElementById('navbar_top').classList.add('fixed-top');
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+      } else {
+        document.getElementById('navbar_top').classList.remove('fixed-top');
+        document.body.style.paddingTop = '0';
+      } 
+  });
+}); 
+  </script>
+
+
+ <script>
+  var app = document.getElementsByTagName("BODY")[0];
+  if (localStorage.lightMode == "dark") {
+      app.setAttribute("light-mode", "dark");
+  }
+</script>
+
+
+   <script>
+    function toggle_light_mode() {
+    var app = document.getElementsByTagName("BODY")[0];
+    if (localStorage.lightMode == "dark") {
+        localStorage.lightMode = "light";
+        app.setAttribute("light-mode", "light");
+    } else {
+        localStorage.lightMode = "dark";
+        app.setAttribute("light-mode", "dark");
+    }
+}
+
+window.addEventListener(
+    "storage",
+    function () {
+        if (localStorage.lightMode == "dark") {
+            app.setAttribute("light-mode", "dark");
+        } else {
+            app.setAttribute("light-mode", "light");
+        }
+    },
+    false
+);
+
+  </script> 
+
+
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
